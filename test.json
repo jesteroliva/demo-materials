@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IlJVZWhZWloraWNjV05WeXR6M2ZGOHc9PSIsInZhbHVlIjoiVWFnYTBDSEh6b0t0SWN3cjR0S01jRkoyakV6N0xiRXN2RUpJQWN6ZE9KK3hqM1Uyck40MDNobDgwcHRtcnEvNWo5QUY5YkxKdTNiRSs0bllJSDM0NkhnNVFlQUprS0dnUmJBSnlsTXFueWFGYlZNMlRzMnF5VmVIYlgxUmNuTzUiLCJtYWMiOiIxNDIzZWExODg5ZWRiZDg0ZGI0NDRiN2FhNzU5NTc0YzEwNjY2NTQxMmMyODA5NzA5ODM0NzQ3ODgzMDgxNTUyIiwidGFnIjoiIn0%3D",
+      "domain": "newarc-dev.agentcareer.com",
+      "path": "/",
+      "expires": 1776921318.936579,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uig_agent_resource_center_develop_session",
+      "value": "eyJpdiI6IjBSODBKRi9kOUdWQTFObE5aYTRoYlE9PSIsInZhbHVlIjoiRWh2NEdIeWVjTHBFaXdFZFFuNU5tcWFud3VqYWROVWFhQ0ZqUmc0NWF6RWhLUE96NCtnWlFXS2duWGt4eFJOSmp4YlhVY3FXa25LQnVpSlFZd3Q1T0k3a1VoNllmOGwrM1hsaXZ2eXptZTZvc2VxeXBBU2xMUTZLL3FKa0puMEoiLCJtYWMiOiJkNDA0N2NlNjZjM2RlZTlmZTczY2UxN2MzOWEzMWJiYWUzYzJhNzI0MDc1MjRjMmEyNjNiZTQ2OTJlZTJkZTYwIiwidGFnIjoiIn0%3D",
+      "domain": "newarc-dev.agentcareer.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://newarc-dev.agentcareer.com",
+      "localStorage": [
+        {
+          "name": "phpdebugbar-height",
+          "value": "300"
+        }
+      ]
+    }
+  ]
+}

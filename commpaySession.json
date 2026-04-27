@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6Ik5xVFJWaTd6eTFoWC9wVDAvWStVdWc9PSIsInZhbHVlIjoiVjJPNURHVVQ1L0dDdGlMTmVTeUlWMVBZdjV2cks3R2pQeENNM2lIeEsvL2xjZEhlWWlvVU12MzFnejdMQVpJeXdnVm1ETHNTVXRRK0NuSyt1dHBOS0NTakREQVR4MVF4WjNRQWFXOVE1R1BaMFhyRVllek1LNUVEb0s4TnFUVmciLCJtYWMiOiJmNDg0OGY0YjY3ZjIwNDYxNzRiOWEzMTFiZjg3M2IyMDNhZTA2YjRjNWJmMjgwYTkxOWVhY2M2NDg0MzZhMTBiIiwidGFnIjoiIn0%3D",
+      "domain": "accounts-dev.commtpa.com",
+      "path": "/",
+      "expires": 1777306246.192651,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ltc_accounts_develop_session",
+      "value": "eyJpdiI6InoyTDVMZVlRY3lxa2QzSU1Hcmt3MGc9PSIsInZhbHVlIjoiL3VPZzg3aWQ5T0s3U1QzUlF0UmU4bGtidzZWR292VnlaUGZRWmg2NGRMeElVQmF1R2dteWF3SVlHRjlteHJvU3JGRG5IeWRuUnZoK3dzbkFBOXJBVEo0eWJxWCtGeWJzaFNFaGJNcm9DOWlkaHFvRkVraHp0MVdrK0daSGluSmUiLCJtYWMiOiI0NWI2NjE2MjY3MGNhMWFmNTFiYmIwMzVmODQ2NzRiOGQxNjRhZjhiMzUxNmY0ZWNjODgzMmNhOWQzYjFlOTg1IiwidGFnIjoiIn0%3D",
+      "domain": "accounts-dev.commtpa.com",
+      "path": "/",
+      "expires": 1777306246.193059,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IkZLUEluTWl0MTl0dEwwQUNzQ0VRaVE9PSIsInZhbHVlIjoiZk9oV0lFcVVHZmlOVDlyL1JjZ1pHZEc3SEpENUE2ZEdRMWRXekR6eW9QZEdnVkxiRkhJN0RvdUVUeE5BdTFocDlGYzNLcExlM3ZiZjhkd1pJVVA4eVBLVll2NTRFZWc2NGpESXJ1L1pKQWFJYW8vSEpvMUVUUkZLQW5sbHoyN1ciLCJtYWMiOiJkZmZjZGE3ZTdlMzJlZTYzNjhmNGZhMTI0MTgzNWJjN2E1NDUyNzliMTU0NWE2ZDJiM2NmYmUyZjM0NGNkYmJjIiwidGFnIjoiIn0%3D",
+      "domain": "commpay-dev.commtpa.com",
+      "path": "/",
+      "expires": 1777306247.007542,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "commpay_develop_session",
+      "value": "eyJpdiI6ImtrTFh0K21iMmdSMThHQ3pLaHhEM2c9PSIsInZhbHVlIjoiZFd4akdvRnY4VzNMRUE4ZUVJVkxTZSsyMEY3NExjNFVkcVE4SE5OaHJVTlZtT0x2SGFTN25MTHZodzR2Y3R1ZFZHaGtmWFdnMWlwUnF2SWYzVEZ2ZytmenRsWG9HbGFIMkU2TnZiVjF3TEh2cklRMEdPL3ZDdnpGMEhHeUZjdFAiLCJtYWMiOiJiMzM5MjYzYjJjNGQ0OGJhN2E0YjA4ZGNlZDgwYTFhNzMzNmYwMThmM2FkNDg0MjBhMzkwZDY3NzczOTA1NWJjIiwidGFnIjoiIn0%3D",
+      "domain": "commpay-dev.commtpa.com",
+      "path": "/",
+      "expires": 1777306247.007901,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://commpay-dev.commtpa.com",
+      "localStorage": [
+        {
+          "name": "data-bs-theme",
+          "value": "light"
+        }
+      ]
+    }
+  ]
+}

@@ -11,23 +11,17 @@ export class urls {
     stagingsite = 'https://commpay-staging.commtpa.com/login';
     //prodsite = 'https://commpay.commtpa.com/login';
 }
-export const elements = [
-  {
-    type: 'textbox',
-    name: 'Email',
-    //locator: 'input[name="firstName"]',
-    //textboxData: 'joliva@objectbright.com'
-    textboxData: 'joliva@objectbright.com'
-  },
-  {
-    type: 'textbox',
-    name: 'Password',
-    //locator: 'input[name="lastName"]',
-    //textboxData: 'password'
-    textboxData: 'password'
-  }
-];
+
+
+//export const usernameData = process.env.COMMPAY_USERNAME!;
+//export const passwordData = process.env.COMMPAY_PASSWORD!;
+export const usernameElement = 'Email';
+export const passwordElement = 'Password';
+
 
 export class buttonElements {
     loginButton = 'Log in';
 }
+
+//npm install cross-env
+//$env:TEST_ENV="dev"; npx playwright test

@@ -1,5 +1,5 @@
 import  {Page} from 'playwright';
-import { manageInstances, urls, elements, buttonElements } from './loginElements';
+import { manageInstances, urls, elements, buttonElements } from '../login/loginElements';
 
 
 
@@ -22,4 +22,3 @@ export async function submitLogin(page: Page) {
     await page.goto(url.devsite);
     await page.getByRole('link', { name: instance.phs }).click();
 }
-

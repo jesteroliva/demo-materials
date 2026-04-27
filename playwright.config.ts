@@ -1,6 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
 import 'dotenv/config';
-import { urls } from './tests/commpay_PHS/login/loginElements';
 
 
 /**
@@ -14,7 +13,7 @@ import { urls } from './tests/commpay_PHS/login/loginElements';
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
-const urlsInstance = new urls();
+const baseURL = process.env.COMMPAY_BASE_URL || 'https://commpay-dev.commtpa.com/login';
 export default defineConfig({
  
   testDir: './tests',
@@ -31,7 +30,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-      baseURL: urlsInstance.devsite,
+      baseURL,
    
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',

@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IlRMNHA0RzMvVnJLTHdLQktVZmRhaXc9PSIsInZhbHVlIjoiekFuZUYwcnVtZkxUU3hlOVRyUWNHOGhMZ0kveW1pUWtiOENXSXlhRnJiUjJIZmZBODdVVldOYS9ZWE9MZzFYMlhldndBOEhuaTAycitZaHZNY0dBMTlhYUtadGtKSHNkSnZZWHZBMFJtakNid3BtVnZyc1FjallpMmhrWXc4dlciLCJtYWMiOiIxNmUwMTlmNGZjZDc5YzNhYzMxNWQzMzEwMjlmMWRlYTU3YmFlNGM2YWJmNTI2Yjg2YjM1NDQ4YjcyYjgzNGY3IiwidGFnIjoiIn0%3D",
+      "domain": "rtsdev.uiginc.com",
+      "path": "/",
+      "expires": 1777000246.500935,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uig_rts_develop_session",
+      "value": "eyJpdiI6IjB0R0ErdE1rNlJYRlVFV3NwY2gwckE9PSIsInZhbHVlIjoiNUFGbzRUODVjTFFrbTdzRllicXdhRHV0RTFFQ1Y2b2JUd1JUVG9nVXZlZ1BWa2w2c2N0bERCVEMwRU5CemNhbTBCU2FHTGVRYm1MM3pTdklzU3Rna3lRSkhTYlgvcHVTMmZpL01kSWFHUDVLbnVmRGtwc21VeFd0SGNkYnBQMEciLCJtYWMiOiIxNzFhZDliZjlkZjRkN2Y5ZTJkZTkwMWEyMmM3YWQ0MTUxNTJhZjczNDI0MjBmYzA2MjEyYzQxOTVkZDM3YjhjIiwidGFnIjoiIn0%3D",
+      "domain": "rtsdev.uiginc.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rtsdev.uiginc.com",
+      "localStorage": [
+        {
+          "name": "phpdebugbar-height",
+          "value": "300"
+        }
+      ]
+    }
+  ]
+}

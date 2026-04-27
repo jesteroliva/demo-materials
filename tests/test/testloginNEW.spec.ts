@@ -15,12 +15,13 @@ const successUrl = 'https://rtsdev.uiginc.com/files';
 const loginElements =[
     {
    type: 'textBox',
-   name: 'Email'
+   name: 'Email',
+   data: process.env.RTS_USERNAME!
 },
 {
-    type: 'textBox',
-    name: 'Password'
-
+    type: 'textBoxPassword',
+    name: 'Password',
+    data: process.env.RTS_PASSWORD!
 }]
 
 const userNameElement = 'Email';
@@ -83,6 +84,26 @@ test('Forgot Password', async ({ page }) => {
   });
 });
 
+test.only('USING LOOP', async ({ page }) => {
+  await page.goto(urlLogin);
+ for (const element of loginElements) {
+  switch (element.type) {
+    case 'textBox':
+      await page.getByRole('textbox', { name: element.name }).fill(element.data);
+      break; 
+    case 'textBoxPassword':
+      await page.getByRole('textbox', { name: element.name }).fill(element.data);
+      break;
+  }
+ }
+ await page.getByRole('button', { name: submitButton }).click();
+ await page.close();
+
+});
+
+
+
+
 
 
 export async function logOut(page) {
@@ -118,4 +139,3 @@ export async function loginSucess(page) {
   await expect(page).toHaveURL(successUrl);
 
 }
-

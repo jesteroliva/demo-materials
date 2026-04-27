@@ -37,9 +37,23 @@ export async function CRUD(page: Page) {
       case 'combobox':
         console.log(`Handle dropdown: ${fieldLocator.name}`);
         await page2.getByRole('combobox', { name: fieldLocator.name }).click();
-        try 
-        { await page2.getByRole('option').first().click(); 
-        }catch { await page2.waitForTimeout(2000); }
+        await page2.waitForTimeout(3000); // Wait for options to load
+        try {
+          const options = page2.getByRole('option');
+          const randomIndex = Math.floor(Math.random() * 16);
+          let selectedOption = options.first();
+
+          for (let index = randomIndex; index >= 0; index -= 3) {
+            if (await options.nth(index).isVisible().catch(() => false)) {
+              selectedOption = options.nth(index);
+              break;
+            }
+          }
+
+          await selectedOption.click();
+        } catch {
+          await page2.waitForTimeout(2000);
+        }
         
         break;
 

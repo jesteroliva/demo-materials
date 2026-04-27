@@ -1,9 +1,4 @@
-// elements are placed here and extra steps that cannot be reused in other projects
-//change page2 to page in this file and the _crud file if no popups are involved in the test case
-
 import { Locator, Page, expect } from "@playwright/test";
-import { submitLogin } from "../../login/login";
-
 
 export const elements = [
   {
@@ -14,29 +9,18 @@ export const elements = [
 ];
 
 export class fieldData{
-    textboxData = "testQA"+Date.now();
+    textboxData = `testQA${Math.random().toString(36).slice(2, 8)}`;
+    
     editSearch = this.textboxData;
-    editData = "TEST QA AGENCY "+Date.now();
-    
-    
+    //editData = `TEST QA AGENCY ${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+    //editData = "TEST QA AGENCY " + Math.floor(Math.random() * 1000000);
+    editData = `TEST QA AGENCY ${Math.random().toString(36).slice(2, 8)}`;
 }
 
 export const field = new fieldData();
 
 
-export async function initAddContext(page: Page, other: otherElements): Promise<{ page2: Page; searchBox: Locator }> {
-  await submitLogin(page);
-  const page2Promise = page.waitForEvent('popup');
-  await page.getByRole('link', { name: other.agencies, exact: true }).click();
-  const page2 = await page2Promise;
-  await page2.waitForLoadState('domcontentloaded');
-  const searchBox = page2.getByRole('searchbox', { name: other.search });
-
-  return { page2, searchBox };
-}
-
 export async function initEditContext(page2: Page, searchBox: Locator, other: otherElements) {
-  
   await searchBox.fill(field.editSearch);
   await searchBox.press('Enter');
   await page2.getByRole('row').nth(1).click();
