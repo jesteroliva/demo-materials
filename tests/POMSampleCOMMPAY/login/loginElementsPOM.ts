@@ -1,16 +1,9 @@
 import { Page } from '@playwright/test';
 
-//import { text } from 'node:stream/consumers';
-
-export class manageInstances {
+export class ManageInstance {
   phs = 'Manage PHS Client';
 }
 
-export class urls {
-    devsite = 'https://commpay-dev.commtpa.com/login';
-    stagingsite = 'https://commpay-staging.commtpa.com/login';
-    //prodsite = 'https://commpay.commtpa.com/login';
-}
 
 
 //export const usernameData = process.env.COMMPAY_USERNAME!;
@@ -19,7 +12,7 @@ export const usernameElement = 'Email';
 export const passwordElement = 'Password';
 
 
-export class buttonElements {
+export class ButtonElements {
     loginButton = 'Log in';
 }
 

@@ -2,40 +2,40 @@
   "cookies": [
     {
       "name": "XSRF-TOKEN",
-      "value": "eyJpdiI6Ik5xVFJWaTd6eTFoWC9wVDAvWStVdWc9PSIsInZhbHVlIjoiVjJPNURHVVQ1L0dDdGlMTmVTeUlWMVBZdjV2cks3R2pQeENNM2lIeEsvL2xjZEhlWWlvVU12MzFnejdMQVpJeXdnVm1ETHNTVXRRK0NuSyt1dHBOS0NTakREQVR4MVF4WjNRQWFXOVE1R1BaMFhyRVllek1LNUVEb0s4TnFUVmciLCJtYWMiOiJmNDg0OGY0YjY3ZjIwNDYxNzRiOWEzMTFiZjg3M2IyMDNhZTA2YjRjNWJmMjgwYTkxOWVhY2M2NDg0MzZhMTBiIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6InZyUHlTUFpnYWhQaWlaeXkyZ0hFeWc9PSIsInZhbHVlIjoiZWtjKzFTSkNGWlY0UUk4UkF4OUwyT244cVd3a212SGltWDAwLytQa29CSGhaNDlPSUczYmh1d2RHUDBEczNLOWZKSkRGb1BMTDl0cFI2ekIySnNCWkpMTXBYT2lZbHN1dXZmSVh2clZVUFNiVDA2ZC9ndlhuNy9paEdoZjEzdjQiLCJtYWMiOiJhYjljMzNhOTQwNDUxZjcyZTI3MzI4MDcwODM4YWQ5OTM0MzEwMTc3NGJhOGYzOWY4N2VhOTQ0Mjg5MTA3NTg5IiwidGFnIjoiIn0%3D",
       "domain": "accounts-dev.commtpa.com",
       "path": "/",
-      "expires": 1777306246.192651,
+      "expires": 1777451288.151812,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "ltc_accounts_develop_session",
-      "value": "eyJpdiI6InoyTDVMZVlRY3lxa2QzSU1Hcmt3MGc9PSIsInZhbHVlIjoiL3VPZzg3aWQ5T0s3U1QzUlF0UmU4bGtidzZWR292VnlaUGZRWmg2NGRMeElVQmF1R2dteWF3SVlHRjlteHJvU3JGRG5IeWRuUnZoK3dzbkFBOXJBVEo0eWJxWCtGeWJzaFNFaGJNcm9DOWlkaHFvRkVraHp0MVdrK0daSGluSmUiLCJtYWMiOiI0NWI2NjE2MjY3MGNhMWFmNTFiYmIwMzVmODQ2NzRiOGQxNjRhZjhiMzUxNmY0ZWNjODgzMmNhOWQzYjFlOTg1IiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IndDUFlQTFJvSE5DZzlXMGhremMrZFE9PSIsInZhbHVlIjoiMFc4aW1NNW03ZXZsM294U0lydkE0b3JEd2JaTzlpRE9GYWE3N1BoZUpRUnBnZWZOTDlzQzAwR09oSjExVEZWUUlyeVBvNnlmZzhBcjd6RkhFSi9uK1dZNVRadHdoTXpSSkdLY0x5NW1JUEwzS0xYaS96cEM5YnFTU04zNklibm8iLCJtYWMiOiJlNTU0OTEwNmU2Mzc0M2UzZTNhZGZmYzcwMjY0YmVhMTdkMjNjMDE3ZTkyYWMxZDY5ODg3MGQ5OWE0YzAyNDRiIiwidGFnIjoiIn0%3D",
       "domain": "accounts-dev.commtpa.com",
       "path": "/",
-      "expires": 1777306246.193059,
+      "expires": 1777451288.151967,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "XSRF-TOKEN",
-      "value": "eyJpdiI6IkZLUEluTWl0MTl0dEwwQUNzQ0VRaVE9PSIsInZhbHVlIjoiZk9oV0lFcVVHZmlOVDlyL1JjZ1pHZEc3SEpENUE2ZEdRMWRXekR6eW9QZEdnVkxiRkhJN0RvdUVUeE5BdTFocDlGYzNLcExlM3ZiZjhkd1pJVVA4eVBLVll2NTRFZWc2NGpESXJ1L1pKQWFJYW8vSEpvMUVUUkZLQW5sbHoyN1ciLCJtYWMiOiJkZmZjZGE3ZTdlMzJlZTYzNjhmNGZhMTI0MTgzNWJjN2E1NDUyNzliMTU0NWE2ZDJiM2NmYmUyZjM0NGNkYmJjIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6InJlakFNcFlqNldCRGJmSjJMTmhxbGc9PSIsInZhbHVlIjoid3MvYnIwMjJHbEwvNm9kakU1MnJYTmJiRGZqWGlKeWZKTG5qbVovR3FrekVFaUVZQUpxV3N1aVNPemlSUlFvVThmcVAxT2lVZVFpTjhzRm1EVDdNaUd0RmxYLzhpYjIvTTFYakY0OXU4akFJdG93bkdwOU9RcCt4RW94dVdid2giLCJtYWMiOiIxNTJiMjk3NGVkZTY0Y2E4NGQ1MTE1MzNjN2NlZmFiNDBjMzkzZGI2NWJiOGE1MjA2MGZmYzcwNDExOGE4ZGE2IiwidGFnIjoiIn0%3D",
       "domain": "commpay-dev.commtpa.com",
       "path": "/",
-      "expires": 1777306247.007542,
+      "expires": 1777451289.433896,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "commpay_develop_session",
-      "value": "eyJpdiI6ImtrTFh0K21iMmdSMThHQ3pLaHhEM2c9PSIsInZhbHVlIjoiZFd4akdvRnY4VzNMRUE4ZUVJVkxTZSsyMEY3NExjNFVkcVE4SE5OaHJVTlZtT0x2SGFTN25MTHZodzR2Y3R1ZFZHaGtmWFdnMWlwUnF2SWYzVEZ2ZytmenRsWG9HbGFIMkU2TnZiVjF3TEh2cklRMEdPL3ZDdnpGMEhHeUZjdFAiLCJtYWMiOiJiMzM5MjYzYjJjNGQ0OGJhN2E0YjA4ZGNlZDgwYTFhNzMzNmYwMThmM2FkNDg0MjBhMzkwZDY3NzczOTA1NWJjIiwidGFnIjoiIn0%3D",
+      "value": "eyJpdiI6IjRmRXE1VG1Tek81T2FhTDhTYXBYWHc9PSIsInZhbHVlIjoic05XR3YydGVCVnAza2ExVVo2R0ZKMjVVaTlqQTRQb015NjBIa05haWhLMzAxSDRGaXpZVEoySHB4Z0M4VXA2QkdvUW5DLzZ4bWpmQ3NieDBRVnlESUs5ellNZng0QkxNb1MyamxKZ1ArYzFlYzNVa0ZTdWRWUjgyYzZWS1laem8iLCJtYWMiOiI3ZTQ0NTcwNWI2ZTQ3ODIzMzk4ZWU3YTQ4MDE5NGE5Mjc2M2RjN2Y4YTI1NDZiZjcwZGVmMzg4MTI5ZTFkODQyIiwidGFnIjoiIn0%3D",
       "domain": "commpay-dev.commtpa.com",
       "path": "/",
-      "expires": 1777306247.007901,
+      "expires": 1777451289.434603,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -47,6 +47,15 @@
       "localStorage": [
         {
           "name": "data-bs-theme",
+          "value": "light"
+        }
+      ]
+    },
+    {
+      "origin": "https://accounts-dev.commtpa.com",
+      "localStorage": [
+        {
+          "name": "data-theme",
           "value": "light"
         }
       ]

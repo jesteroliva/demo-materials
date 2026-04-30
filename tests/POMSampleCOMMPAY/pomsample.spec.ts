@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import { login } from '../POMSampleCOMMPAY/login/login';
 import fs from 'fs';
 import { getCredentials } from './config/env';
@@ -14,9 +14,10 @@ test('test', async ({ page }) => {
  const agenciesCRUDPage = new agenciesCRUD(page);
 
 
- await loginPage.goto();
+
  await loginPage.loginIfNeeded(creds.username, creds.password);
- await page.getByRole('link', { name: 'Manage PHS Client' }).click();
- await agenciesCRUDPage.clickAddButton();
- await agenciesCRUDPage.addNewRecord();
+ await agenciesCRUDPage.openManageClient();
+ await agenciesCRUDPage.addAgency();
+ await agenciesCRUDPage.editAgency();
+ await agenciesCRUDPage.deleteAgency();
 });

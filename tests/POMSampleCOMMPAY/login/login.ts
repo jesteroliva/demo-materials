@@ -1,13 +1,12 @@
 import  {Locator, Page} from 'playwright';
-import { manageInstances, urls, usernameElement, passwordElement, buttonElements } from './loginElementsPOM';
+import { ManageInstance, usernameElement, passwordElement, ButtonElements } from './loginElementsPOM';
 import { getBaseUrl } from '../config/env';
-//import { field } from '../../commpay_PHS/CRUD/beneficiary/beneficiary_crudElements';
 
 
 
-const instance = new manageInstances();
-const url = new urls();
-const buttons = new buttonElements();
+
+const instance = new ManageInstance();
+const buttons = new ButtonElements();
 
 export class login{
     readonly page: Page;
